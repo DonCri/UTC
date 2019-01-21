@@ -47,7 +47,7 @@
 	    $data = json_decode($JSONString);
  
 	    // Datenverarbeitung und schreiben der Werte in die Statusvariablen
-	    SetValue($this->GetIDForIdent("Value"), $data);
+	    SetValue($this->GetIDForIdent("Value"), $data->valueArray);
  
 	}
 
