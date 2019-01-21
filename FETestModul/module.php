@@ -41,16 +41,16 @@
         }
 
 
-public function ReceiveData($JSONString) {
+	public function ReceiveData($JSONString) {
  
-    // Empfangene Daten vom Gateway/Splitter
-    $data = json_decode($JSONString);
-    IPS_LogMessage("ReceiveData", utf8_decode($data->Buffer));
+	    // Empfangene Daten vom Gateway/Splitter
+	    $data = json_decode($JSONString);
+	    IPS_LogMessage("ReceiveData", utf8_decode($data->BufferIn));
  
-    // Datenverarbeitung und schreiben der Werte in die Statusvariablen
-    SetValue($this->GetIDForIdent("Value"), $data->Buffer);
+	    // Datenverarbeitung und schreiben der Werte in die Statusvariablen
+	    SetValue($this->GetIDForIdent("Value"), $data->BufferIn);
  
-}
+	}
 
     }
 
