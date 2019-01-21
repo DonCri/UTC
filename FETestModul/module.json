@@ -1,5 +1,5 @@
 {
-	"id": ""{4b2ca22b-61b5-4fd6-87a6-532879f0dd50}",
+	"id": "{4b2ca22b-61b5-4fd6-87a6-532879f0dd50}",
 	"name": "UTC", 
 	"type": 3,
 	"vendor": "BRELAG",
@@ -12,3 +12,4 @@
 	"implemented": ["{BA70E3E8-68D2-4E3B-8C64-BBB86F188473}"],
 	"prefix": "BRELAG"
 }
+
