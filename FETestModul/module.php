@@ -39,7 +39,7 @@
         public function MeineErsteEigeneFunktion() {
             // Selbsterstellter Code
         }
-    }
+
 
 public function ReceiveData($JSONString) {
  
@@ -51,5 +51,8 @@ public function ReceiveData($JSONString) {
     SetValue($this->GetIDForIdent("Value"), $data->Buffer);
  
 }
+
+    }
+
 
 ?>
